@@ -1,0 +1,12 @@
+1. Open the project and run it.
+2. Check for input in target/classes/in/loadPetriNet.txt
+3. Check for output in target/classes/out/out.txt
+4. Output have to following structure:
+    -initial mark
+    while(!deadlock || !initialMark)
+     -transitions
+     -executable transitions/NONE
+     -transition to be executed (if there is anyone)
+     -current mark
+    
+
